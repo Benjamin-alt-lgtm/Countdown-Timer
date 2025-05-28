@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countdown Timer</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="flex items-center justify-center min-h-screen bg-gray-200">
+<body class="flex items-center justify-center min-h-screen bg-[url('/img/gradient-numerology-background_23-2150140093.avif')] ">
     <div class="bg-white p-6 rounded-lg shadow-lg text-center">
         <h1 class="text-2xl font-bold mb-4">Countdown Timer</h1>
+        
         <input
             type="number"
             id="minutes"
-            placeholder="Enter minutes"
+            placeholder="Enter Time"
             min="0"
             class="border border-gray-300 rounded p-2 mb-4 w-32 text-center"
         >
@@ -23,6 +25,12 @@
             Start
         </button>
         <div id="timer" class="text-4xl font-mono mt-4">00:00</div>
+
+        <span class="mt-6 text-center">
+            <a href="https://github.com/Benjamin-alt-lgtm" class="text-2xl">
+                <i class="bx bxl-github"></i>
+            </a>
+        </span>
     </div>
 
     <script src="script.js" defer></script>

@@ -562,8 +562,16 @@ video {
   margin-top: 1rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .min-h-screen {
@@ -572,6 +580,10 @@ video {
 
 .w-32 {
   width: 8rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .items-center {
@@ -612,6 +624,114 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[img\] {
+  background-color: img;
+}
+
+.bg-\[im\] {
+  background-color: im;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\'https\:\/\/example\.com\/image\.jpg\'\)\] {
+  background-image: url('https://example.com/image.jpg');
+}
+
+.bg-\[url\(\'https\:\/\/img\.freepik\.com\/free-vector\/gradient-numerology-background_23-2150140093\.jpg\?uid\=R199149358\&ga\=GA1\.1\.479597011\.1738661435\&semt\=ais_hybrid\&w\=740\'\)\] {
+  background-image: url('https://img.freepik.com/free-vector/gradient-numerology-background_23-2150140093.jpg?uid=R199149358&ga=GA1.1.479597011.1738661435&semt=ais_hybrid&w=740');
+}
+
+.bg-\[url\(\'https\:\/\/via\.placeholder\.com\/1920x1080\'\)\] {
+  background-image: url('https://via.placeholder.com/1920x1080');
+}
+
+.bg-\[url\(\'img\'\)\] {
+  background-image: url('img');
+}
+
+.bg-\[url\(\'im\'\)\] {
+  background-image: url('im');
+}
+
+.bg-\[image\:img\] {
+  background-image: img;
+}
+
+.bg-\[image\:i\] {
+  background-image: i;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\/\)\] {
+  background-image: url(/);
+}
+
+.bg-\[url\(\/img\)\] {
+  background-image: url(/img);
+}
+
+.bg-\[url\(\/img\/\)\] {
+  background-image: url(/img/);
+}
+
+.bg-\[url\(\/img\/illuminated-tower-against-starry-night-sky_639785-149051\.jpg\)\] {
+  background-image: url(/img/illuminated-tower-against-starry-night-sky_639785-149051.jpg);
+}
+
+.bg-\[url\(\'\/img\/illuminated-tower-against-starry-night-sky_639785-149051\.jpg\'\)\] {
+  background-image: url('/img/illuminated-tower-against-starry-night-sky_639785-149051.jpg');
+}
+
+.bg-\[url\(\'imh\'\)\] {
+  background-image: url('imh');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\"\/img\/gradient-numerology-background_23-2150140093\.avif\"\)\] {
+  background-image: url("/img/gradient-numerology-background_23-2150140093.avif");
+}
+
+.bg-\[url\(\'o\'\)\] {
+  background-image: url('o');
+}
+
+.bg-\[url\(\'\/img\'\)\] {
+  background-image: url('/img');
+}
+
+.bg-\[url\(\'\/img\/\/gradient-numerology-background_23-2150140093\.avif\'\)\] {
+  background-image: url('/img//gradient-numerology-background_23-2150140093.avif');
+}
+
+.bg-\[url\(\'\/img\/gradient-numerology-background_23-2150140093\.avif\'\)\] {
+  background-image: url('/img/gradient-numerology-background_23-2150140093.avif');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .p-2 {
